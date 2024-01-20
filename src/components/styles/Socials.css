@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#social{
+    padding-top: 50px;
+    height: 100vh;
+}
+.social-link{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    gap: 30px;
+}
+.social-link h2{
+    width: 40%;
+    padding-top: 70px;
+    color:white;
+}
+.social-link img{
+    padding-top: 30px;
+    height: 300px;
+    width: 500px;
+}
+.button1{
+    width: 210px;
+    height: 45px;
+    font-size: large;
+    color: white;
+    margin-left: -600px;
+    cursor:pointer;
+    border-radius: 15px;
+    background-color: rgb(48, 162, 162);
+}
+.project-link{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.project-link h2{
+    color:white;
+    width: 40%;
+    padding-top: 100px;
+}
+.project-link img{
+    padding-top: 20px;
+    height: 300px;
+    width: 500px;
+}
+.button2{
+    width: 200px;
+    margin-left: 700px;
+    background-color: rgb(48, 162, 162);
+    font-size: large;
+    height: 40px;
+    color: white;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    background: none;
+}
+
+
+@media only screen and (max-width :730px){
+    #social{
+        margin: 0px;
+    }
+    .social-link{
+        padding-top: 10px;
+        padding-left: 70px;
+        justify-content: center;
+    }
+    .social-link h2{
+        display: none;
+    }
+    .button1{
+        margin-left: 70px;
+    }
+    .project-link{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .project-link h2{
+        display: none;
+    }
+    .button2{
+        margin-left: 70px;
+    }
+}
+
+
+@media only screen and (max-width :800px){
+    #social{
+        margin: 10px;
+    }
+    .social-link{
+        padding-top: 10px;
+        padding-left: 70px;
+        justify-content: center;
+    }
+    .social-link h2{
+        display: none;
+    }
+    .button1{
+        margin-left: 70px;
+    }
+    .project-link{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .project-link h2{
+        display: none;
+    }
+    .button2{
+        margin-left: 70px;
+    }
+}
+
+
+
+@media only screen and (max-width :1700px){
+    #social{
+        margin: 0px;
+    }
+}

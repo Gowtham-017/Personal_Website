@@ -1,0 +1,9 @@
+.copy{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.copy h4{
+    color: white;
+}
