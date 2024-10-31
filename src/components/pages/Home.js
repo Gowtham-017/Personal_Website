@@ -15,7 +15,7 @@ function Home() {
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#social">Socials</a></li>
-                        <li><a href="https://drive.google.com/file/d/1VghRzNaV-8KsY6IFzlrf5sKSaCGNoNdW/view?usp=sharing" class="btn2" download>Resume</a>
+                        <li><a href="https://drive.google.com/file/d/1pyfrjQBobJt3U6DJ3HJPKfidzH5Do2cK/view?usp=sharing" class="btn2" download>Resume</a>
                     </li>
                     </ul>
                 </nav>
